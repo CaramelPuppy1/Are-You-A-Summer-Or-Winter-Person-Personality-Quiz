@@ -1,0 +1,73 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color:#E0FFFF
+}
+header {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: bold;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+color: #28b8ac;
+}
+
+h2 {
+margin-top: 2em; 
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p {
+font-family: "Ink Free", Times, serif;
+  font-size: 20px;
+  }
+
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 15em;
+ border-radius: 5%;
+  border: 5px solid #43d5df;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+   background: #8beae3;
+  padding: 13px;
+  border-radius: 5%;
+  border: 1px solid #438d93;
+  border-style: outset;
+ font-family: 'Cinzel', serif
+}
